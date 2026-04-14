@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Funk-Einstiegskartei</title>
-  <link rel="stylesheet" href="style.css?v=1">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
   <main class="app">
@@ -22,7 +22,17 @@
       <div class="divider"></div>
 
       <h2>Prüfungsmodus</h2>
-      <p>40 zufällige Fragen, mindestens 4 aus jedem Kapitel. Die Auswertung erscheint erst am Schluss. Bestanden ist die Prüfung nur mit 100%.</p>
+      <p>40 zufällige Fragen, mindestens 4 aus jedem Kapitel. Die Auswertung erscheint erst am Schluss. Bestanden ist die Prüfung nur mit <strong>über 90%</strong>.</p>
+      <div class="exam-form">
+        <div class="field-row">
+          <label for="firstName">Vorname</label>
+          <input id="firstName" type="text" autocomplete="given-name" maxlength="60" placeholder="Vorname">
+        </div>
+        <div class="field-row">
+          <label for="lastName">Nachname</label>
+          <input id="lastName" type="text" autocomplete="family-name" maxlength="60" placeholder="Nachname">
+        </div>
+      </div>
       <button id="examBtn" class="exam-btn" type="button">Prüfung starten</button>
 
       <div class="divider"></div>
@@ -50,14 +60,18 @@
       <h2>Auswertung</h2>
       <p id="resultText" class="result-text"></p>
       <div id="resultMeta" class="result-meta"></div>
+      <div id="certificatePanel" class="certificate-panel hidden">
+        <p><strong>Zertifikat verfügbar:</strong> Name, Datum und erreichte Prozentzahl werden auf Basis deiner Vorlage eingesetzt.</p>
+        <button id="certificateBtn" class="primary-btn" type="button">Zertifikat exportieren</button>
+      </div>
       <div id="resultDetails" class="result-details"></div>
-      <div class="bottom-actions">
-        <button id="backToMenuBtn" class="primary-btn" type="button">Zurück zum Startmenü</button>
+      <div class="bottom-actions two-buttons">
+        <button id="backToMenuBtn" class="secondary-btn" type="button">Zurück zum Startmenü</button>
       </div>
     </section>
   </main>
 
-  <script src="data.js?v=1"></script>
-  <script src="app.js?v=1"></script>
+  <script src="data.js?v=2"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>
