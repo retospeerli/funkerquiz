@@ -140,7 +140,7 @@
 
   function renderStorageHint() {
     els.storageHint.textContent = hasStorage()
-      ? 'Der Lernstand wird in diesem Browser lokal gespeichert. Eine IP-Adresse ist dafür weder nötig noch sinnvoll.'
+      ? 'Der Lernstand wird in diesem Browser lokal gespeichert.'
       : 'Lokaler Speicher ist in diesem Browser nicht verfügbar. Der Lernstand wird nur bis zum Neuladen der Seite gehalten.';
   }
 
