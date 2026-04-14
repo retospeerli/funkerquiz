@@ -62,6 +62,27 @@ body {
   gap: 12px;
 }
 
+.exam-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 14px 0 14px;
+}
+
+.field-row label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.field-row input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  font-size: 1rem;
+}
+
 .chapter-btn,
 .primary-btn,
 .secondary-btn,
@@ -180,6 +201,11 @@ body {
   margin-top: 18px;
 }
 
+.two-buttons {
+  display: flex;
+  gap: 12px;
+}
+
 .divider {
   height: 1px;
   background: var(--line);
@@ -192,7 +218,8 @@ body {
 }
 
 .overview-item,
-.result-item {
+.result-item,
+.certificate-panel {
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 12px;
@@ -241,4 +268,5 @@ body {
 @media (max-width: 640px) {
   .app { padding: 12px; }
   .card { padding: 16px; }
+  .two-buttons { flex-direction: column; }
 }
