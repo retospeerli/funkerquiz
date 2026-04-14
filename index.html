@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funk-Einstiegskartei</title>
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+  <main class="app">
+    <header class="hero card">
+      <h1>Funk-Einstiegskartei</h1>
+      <p class="lead">Grundlagen zu Funk, Funkdisziplin, Geräten, BAKOM, PMR, HB3 und HB9.</p>
+      <div id="storageHint" class="hint"></div>
+    </header>
+
+    <section id="startScreen" class="card">
+      <h2>Lernen nach Kapiteln</h2>
+      <p>Wähle ein Kapitel und bearbeite alle 20 Fragen mit direkter Rückmeldung.</p>
+      <div id="chapterButtons" class="menu-grid"></div>
+
+      <div class="divider"></div>
+
+      <h2>Prüfungsmodus</h2>
+      <p>40 zufällige Fragen, mindestens 4 aus jedem Kapitel. Die Auswertung erscheint erst am Schluss. Bestanden ist die Prüfung nur mit 100%.</p>
+      <button id="examBtn" class="exam-btn" type="button">Prüfung starten</button>
+
+      <div class="divider"></div>
+
+      <h2>Lernstand</h2>
+      <div id="progressOverview" class="progress-overview"></div>
+    </section>
+
+    <section id="quizScreen" class="card hidden">
+      <div class="topbar">
+        <div id="modeLabel" class="mode-label"></div>
+        <div id="progress" class="progress"></div>
+      </div>
+      <h2 id="chapterLabel" class="chapter-label"></h2>
+      <h3 id="questionId" class="question-id"></h3>
+      <div id="questionText" class="question-text"></div>
+      <div id="answers" class="answers"></div>
+      <div id="feedback" class="feedback"></div>
+      <div class="bottom-actions">
+        <button id="nextBtn" class="secondary-btn hidden" type="button">Nächste Frage</button>
+      </div>
+    </section>
+
+    <section id="resultScreen" class="card hidden">
+      <h2>Auswertung</h2>
+      <p id="resultText" class="result-text"></p>
+      <div id="resultMeta" class="result-meta"></div>
+      <div id="resultDetails" class="result-details"></div>
+      <div class="bottom-actions">
+        <button id="backToMenuBtn" class="primary-btn" type="button">Zurück zum Startmenü</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="data.js?v=1"></script>
+  <script src="app.js?v=1"></script>
+</body>
+</html>
