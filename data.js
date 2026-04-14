@@ -854,7 +854,7 @@ const questions = [
   {
     "id": "EF_D_012",
     "chapter": 4,
-    "question": "Was bedeutet im Funk verstanden?",
+    "question": "Was bedeutet \"verstanden\" im Funk?",
     "answers": {
       "a": "Die Verbindung wird mit diesem Wort sofort beendet",
       "b": "Die Nachricht wurde korrekt empfangen und verstanden",
@@ -866,7 +866,7 @@ const questions = [
   {
     "id": "EF_D_013",
     "chapter": 4,
-    "question": "Was bedeutet im Funk antworten?",
+    "question": "Was bedeutet \"antworten\" im Funk?",
     "answers": {
       "a": "Die Verbindung ist mit dieser Meldung vollständig beendet",
       "b": "Die Gegenstation soll nun auf die Meldung antworten",
@@ -878,7 +878,7 @@ const questions = [
   {
     "id": "EF_D_014",
     "chapter": 4,
-    "question": "Was bedeutet im Funk Ende?",
+    "question": "Was bedeutet \"Ende\" im Funk?",
     "answers": {
       "a": "Die Gegenstation soll jetzt erneut zu sprechen beginnen",
       "b": "Die Verbindung oder Meldung wird jetzt abgeschlossen",
@@ -890,7 +890,7 @@ const questions = [
   {
     "id": "EF_D_015",
     "chapter": 4,
-    "question": "Wann verwendet man nicht verstanden, wiederholen?",
+    "question": "Wann verwendet man \"nicht verstanden, wiederholen\"?",
     "answers": {
       "a": "Wenn die Verbindung regulär beendet werden soll",
       "b": "Wenn eine Nachricht unklar oder unvollständig ankam",
@@ -902,7 +902,7 @@ const questions = [
   {
     "id": "EF_D_016",
     "chapter": 4,
-    "question": "Was bedeutet ich wiederhole im Funk?",
+    "question": "Was bedeutet \"ich wiederhole\" im Funk?",
     "answers": {
       "a": "Die Verbindung wird mit dieser Meldung vollständig beendet",
       "b": "Die eigene Nachricht wird jetzt noch einmal gesendet",
@@ -991,7 +991,7 @@ const questions = [
       "a": "Weil das Gerät einen kurzen Moment zum Senden braucht",
       "b": "Weil die Frequenz in dieser Zeit noch gewechselt wird",
       "c": "Weil die Lautstärke zuerst automatisch eingestellt wird",
-      "d": "Weil das Mikrofon erst nach einigen Sekunden aktiv wird"
+      "d": "Weil das Mikrofon erst nach mehreren Sekunden aktiv wird"
     },
     "correct": "a"
   },
@@ -1202,7 +1202,7 @@ const questions = [
   {
     "id": "EF_U_001",
     "chapter": 6,
-    "question": "Was ist PMR-Funk?",
+    "question": "Was ist Private-Mobile-Radio-Funk?",
     "answers": {
       "a": "Ein lizenzpflichtiger Funkdienst für den Amateurfunk",
       "b": "Ein frei nutzbarer Funkdienst mit festen Einschränkungen",
@@ -1214,7 +1214,7 @@ const questions = [
   {
     "id": "EF_U_002",
     "chapter": 6,
-    "question": "Welche Einschränkung gilt bei PMR-Funkgeräten?",
+    "question": "Welche Einschränkung gilt bei Private-Mobile-Radio-Funkgeräten?",
     "answers": {
       "a": "Die Sendeleistung ist stark begrenzt und fest geregelt",
       "b": "Die Antenne darf beliebig gewechselt und verlängert werden",
@@ -1418,7 +1418,7 @@ const questions = [
   {
     "id": "EF_U_019",
     "chapter": 6,
-    "question": "Welche Aussage zu PMR ist korrekt?",
+    "question": "Welche Aussage zu Private Mobile Radio ist korrekt?",
     "answers": {
       "a": "PMR erlaubt hohe Leistungen mit frei wechselbarer Antenne",
       "b": "PMR ist frei nutzbar, aber an feste Regeln gebunden",
